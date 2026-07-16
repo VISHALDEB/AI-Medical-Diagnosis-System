@@ -21,7 +21,7 @@ pandas
 scikit-learn
 imbalanced-learn
 pillow
-opencv-python
+opencv-python-headless
 
 # PyTorch CPU
 torch
