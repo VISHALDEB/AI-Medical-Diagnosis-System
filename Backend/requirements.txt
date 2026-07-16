@@ -33,3 +33,4 @@ seaborn
 
 keras 
 tensorflow
+gunicorn
