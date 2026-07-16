@@ -1,0 +1,48 @@
+{
+  "SMOKING_MAP": {
+    "non_smoker": 0,
+    "former": 1,
+    "occasional": 2,
+    "regular": 3,
+    "heavy": 4
+  },
+  "DURATION_MAP": {
+    "1_3_days": 0,
+    "1_week": 1,
+    "1_month": 2,
+    "3_months": 3
+  },
+  "DISEASES": [
+    "Asthma",
+    "Covid-19",
+    "Lung Cancer",
+    "Pulmonary Embolism",
+    "Pulmonary Fibrosis",
+    "Tuberculosis"
+  ],
+  "FEATURES": [
+    "cough_severity",
+    "fever_severity",
+    "breathlessness_severity",
+    "wheezing_severity",
+    "chest_pain_severity",
+    "fatigue_severity",
+    "onset_speed",
+    "duration_level",
+    "smell_taste_loss",
+    "muscle_aches",
+    "night_sweats",
+    "tb_exposure",
+    "blood_cough",
+    "weight_loss",
+    "velcro_crackles",
+    "wheezing_episodic",
+    "known_trigger",
+    "inhaler_reversal",
+    "hoarseness",
+    "leg_swelling",
+    "recent_immobility",
+    "smoking_level",
+    "fever_pattern"
+  ]
+}

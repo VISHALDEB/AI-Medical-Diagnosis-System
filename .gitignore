@@ -1,0 +1,20 @@
+# Python
+Backend/venv/
+Backend/__pycache__/
+*.py[cod]
+
+# React
+Frontend/node_modules/
+Frontend/dist/
+
+# Environment files
+Backend/.env
+Backend/client_secret.json
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+AI/dataset/symptoms/Final_Augmented_dataset_Diseases_and_Symptoms.csv

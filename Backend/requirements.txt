@@ -1,0 +1,35 @@
+Flask
+flask-cors
+mysql-connector-python
+groq
+bcrypt
+PyJWT
+email-validator
+python-dotenv
+flask-limiter
+flask-mail
+google-auth
+google-auth-oauthlib
+requests
+cryptography
+
+# AI / ML
+xgboost
+joblib
+numpy
+pandas
+scikit-learn
+imbalanced-learn
+pillow
+opencv-python
+
+# PyTorch CPU
+torch
+torchvision
+
+# Visualization / Reports
+matplotlib
+seaborn
+
+keras 
+tensorflow

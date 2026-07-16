@@ -1,0 +1,46 @@
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #aeacb0 transparent; /* thumb color | track color */
+}
+
+/* Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 6px; /* Very thin and elegant */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Makes the track invisible */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7c3aed; /* Your Violet-600 color */
+  border-radius: 10px;
+  border: 1px solid transparent; /* Creates a little padding effect */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6d28d9; /* Darker violet on hover (Violet-700) */
+}
+
+/* Dark mode override */
+.dark ::-webkit-scrollbar-thumb {
+  background: #a78bfa; /* Lighter violet for dark mode contrast */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-image: url('/AdobeStock_281967200.jpeg');
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #0B0F1A;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
