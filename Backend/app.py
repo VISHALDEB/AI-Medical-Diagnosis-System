@@ -45,6 +45,13 @@ load_dotenv()
 app = Flask(__name__)
 app.secret_key = os.getenv("FLASK_SECRET_KEY", secrets.token_hex(32))
 
+@app.route("/")
+def home():
+    return jsonify({
+        "status": "running",
+        "message": "AI Medical Diagnosis API is running successfully"
+    })
+
 app.config['SESSION_COOKIE_SAMESITE'] = 'Lax'
 app.config['SESSION_COOKIE_SECURE'] = False
 
